@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aws-lambda-playground-quick-start"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-asu1d1zidmos"
+s3_prefix = "aws-lambda-playground-quick-start"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
